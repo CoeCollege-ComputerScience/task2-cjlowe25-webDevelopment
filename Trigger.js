@@ -9,7 +9,7 @@ function noSubmit(component){
 	}
 }
 
-document.getElementById("someData").onchange = function(){
+document.getElementById("someData").oninput = function(){
 	noSubmit(this);
 }
 
