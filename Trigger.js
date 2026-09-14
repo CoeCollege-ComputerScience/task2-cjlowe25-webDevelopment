@@ -13,4 +13,13 @@ document.getElementById("someData").oninput = function(){
 	noSubmit(this);
 }
 
+function hello(){
+	alert("Hello World!");
+}
+
+var button = document.getElementById("button1");
+button.addEventListener("click", hello)
+
+document.getElementById("button3").onclick = hello;
+
 
