@@ -30,4 +30,3 @@ document.getElementById("course").onchange = function(){
     currentCode = document.getElementById("course").value;
     setupInner();
 }
-//ready to grade
