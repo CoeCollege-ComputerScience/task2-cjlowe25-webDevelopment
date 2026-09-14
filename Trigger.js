@@ -22,4 +22,10 @@ button.addEventListener("click", hello)
 
 document.getElementById("button3").onclick = hello;
 
+document.onload = function(){
+	hello();
+}
 
+document.getElementById("text").onpaste = hello;
+document.getElementById("text").oncopy = hello;
+document.getElementById("prompt").onchange = hello;
